@@ -1,0 +1,7 @@
+rx
+redis
+nltk
+python-dotenv
+newspaper3k
+Jinja2
+GoogleNews

@@ -1,0 +1,12 @@
+<html lang="en">
+
+<body>
+    <h1>Newsletter do dia</h1>
+    {% for article in articles %}
+    <h3>{{ article.title }}</h3><br>
+    <img src="{{ article.top_image }}" width="400px" height="300px">
+    <p>{{ article.summary }}</p>
+    {% endfor %}
+</body>
+
+</html>
